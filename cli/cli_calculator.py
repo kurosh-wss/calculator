@@ -36,14 +36,12 @@ def main():
     while True:
         try:
             entry = input()
-            print(entry, entry.split())
-            print(calculate(entry=entry))
+            result = calculate(entry=entry)
+            print(format(result, '.15g'))
 
         except Exception as e:
             print(e)
             continue
-
-
 
 if __name__ == "__main__":
     main()
