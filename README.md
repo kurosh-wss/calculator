@@ -8,3 +8,9 @@ I will start this module with basic functionalities of a calculator and may expa
 2. Subtraction
 3. Multiplication
 4. Division
+
+
+## Graphical Interface
+install PyQt5 and run main.py
+
+
